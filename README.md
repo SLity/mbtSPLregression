@@ -1,5 +1,5 @@
 # Model-Based Product-Line Regression Testing of Variants and Versions of Variants
-This repository provides the download of the prototypical implementation as well as the experimental data for the PhD thesis "Model-Based Product-Line Regression Testing of Variants and Versions of Variants" by Sascha Lity submitted to [Carl-Friedrich-Gauß-Fakultät](https://www.tu-braunschweig.de/fk1/index.html) of [Technischen Universität Carolo-Wilhelmina zu Braunschweig](https://www.tu-braunschweig.de/) (Under Review).
+This repository provides the download of the prototypical implementation as well as the experimental data for the PhD thesis "Model-Based Product-Line Regression Testing of Variants and Versions of Variants" by Sascha Lity submitted to [Carl-Friedrich-Gauß-Fakultät](https://www.tu-braunschweig.de/fk1/index.html) of [Technische Universität Carolo-Wilhelmina zu Braunschweig](https://www.tu-braunschweig.de/) (Under Review).
 
 The prototype is part of the tool support of the research project [IMoTEP](http://www.dfg-spp1593.de/imotep/).
 The IMoTEP project focuses on efficient and effective model-based testing of evolving (dynamic) software product lines.
