@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:de.imotep.variability="platform:/plugin/de.imotep.variability.featuremodel/model/Featuremodel.ecore"
+    xmlns:de.imotep.variability_1="platform:/plugin/de.imotep.variability.configuration/model/Configuration.ecore">
+  <de.imotep.variability:MFeatureModel
+      id="FM_MinePump_V0_ID"
+      name="FM_MinePump_V0"
+      features="_ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg _ddfetAG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg">
+    <root id="_ddfesAG1EeirA6eQ5wNcNg"
+        name="MinePump"
+        featureModel="FM_MinePump_V0_ID"
+        isAbstract="true">
+      <featureGroups
+          xsi:type="de.imotep.variability:MAndFeatureGroup">
+        <features
+            id="_ddfesQG1EeirA6eQ5wNcNg"
+            name="WaterRegulation"
+            featureModel="FM_MinePump_V0_ID"
+            isAbstract="true">
+          <featureGroups
+              xsi:type="de.imotep.variability:MAndFeatureGroup">
+            <features
+                id="_ddfesgG1EeirA6eQ5wNcNg"
+                name="Low"
+                featureModel="FM_MinePump_V0_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_ddfeswG1EeirA6eQ5wNcNg"
+                name="Normal"
+                featureModel="FM_MinePump_V0_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_ddfetAG1EeirA6eQ5wNcNg"
+                name="High"
+                featureModel="FM_MinePump_V0_ID"/>
+          </featureGroups>
+        </features>
+        <features
+            id="_ddfetQG1EeirA6eQ5wNcNg"
+            name="MethaneDetection"
+            featureModel="FM_MinePump_V0_ID"
+            variabilityType="OPTIONAL"/>
+        <features
+            id="_ddfetgG1EeirA6eQ5wNcNg"
+            name="Command"
+            featureModel="FM_MinePump_V0_ID"
+            variabilityType="OPTIONAL"/>
+      </featureGroups>
+    </root>
+  </de.imotep.variability:MFeatureModel>
+  <de.imotep.variability_1:MFeatureConfigurationManager
+      id="Configuration_Manager_MinePump_V0_ID"
+      name="Configuration_Manager_MinePump_V0"
+      featureModel="FM_MinePump_V0_ID">
+    <featureConfigurations
+        id="00009_V0_ID"
+        name="00009_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00011_V0_ID"
+        name="00011_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00012_V0_ID"
+        name="00012_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfetgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00010_V0_ID"
+        name="00010_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"
+        dead="_ddfetgG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00014_V0_ID"
+        name="00014_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"
+        dead="_ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00016_V0_ID"
+        name="00016_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00015_V0_ID"
+        name="00015_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00013_V0_ID"
+        name="00013_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00005_V0_ID"
+        name="00005_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00007_V0_ID"
+        name="00007_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00008_V0_ID"
+        name="00008_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfetQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00006_V0_ID"
+        name="00006_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg"
+        dead="_ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00002_V0_ID"
+        name="00002_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg"
+        dead="_ddfetgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00004_V0_ID"
+        name="00004_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesgG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfetgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00003_V0_ID"
+        name="00003_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00001_V0_ID"
+        name="00001_V0"
+        alive="_ddfetAG1EeirA6eQ5wNcNg _ddfesAG1EeirA6eQ5wNcNg _ddfesQG1EeirA6eQ5wNcNg"
+        dead="_ddfesgG1EeirA6eQ5wNcNg _ddfetgG1EeirA6eQ5wNcNg _ddfetQG1EeirA6eQ5wNcNg _ddfeswG1EeirA6eQ5wNcNg"/>
+  </de.imotep.variability_1:MFeatureConfigurationManager>
+  <de.imotep.variability:MFeatureModel
+      id="FM_MinePump_V1_ID"
+      name="FM_MinePump_V1"
+      features="_dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg _dd35NAG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg">
+    <root id="_dd35MAG1EeirA6eQ5wNcNg"
+        name="MinePump"
+        featureModel="FM_MinePump_V1_ID"
+        isAbstract="true">
+      <featureGroups
+          xsi:type="de.imotep.variability:MAndFeatureGroup">
+        <features
+            id="_dd35MQG1EeirA6eQ5wNcNg"
+            name="WaterRegulation"
+            featureModel="FM_MinePump_V1_ID"
+            isAbstract="true">
+          <featureGroups
+              xsi:type="de.imotep.variability:MAndFeatureGroup">
+            <features
+                id="_dd35MgG1EeirA6eQ5wNcNg"
+                name="Low"
+                featureModel="FM_MinePump_V1_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_dd35MwG1EeirA6eQ5wNcNg"
+                name="Normal"
+                featureModel="FM_MinePump_V1_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_dd35NAG1EeirA6eQ5wNcNg"
+                name="High"
+                featureModel="FM_MinePump_V1_ID"/>
+          </featureGroups>
+        </features>
+        <features
+            id="_dd35NQG1EeirA6eQ5wNcNg"
+            name="MethaneDetection"
+            featureModel="FM_MinePump_V1_ID"
+            variabilityType="OPTIONAL"/>
+        <features
+            id="_dd35NgG1EeirA6eQ5wNcNg"
+            name="Command"
+            featureModel="FM_MinePump_V1_ID"
+            variabilityType="OPTIONAL"/>
+      </featureGroups>
+    </root>
+  </de.imotep.variability:MFeatureModel>
+  <de.imotep.variability_1:MFeatureConfigurationManager
+      id="Configuration_Manager_MinePump_V1_ID"
+      name="Configuration_Manager_MinePump_V1"
+      splVersion="1"
+      featureModel="FM_MinePump_V1_ID">
+    <featureConfigurations
+        id="00001_V1_ID"
+        name="00001_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00002_V1_ID"
+        name="00002_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg"
+        dead="_dd35NgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00003_V1_ID"
+        name="00003_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00004_V1_ID"
+        name="00004_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35NgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00009_V1_ID"
+        name="00009_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00010_V1_ID"
+        name="00010_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"
+        dead="_dd35NgG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00011_V1_ID"
+        name="00011_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00012_V1_ID"
+        name="00012_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35NgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00005_V1_ID"
+        name="00005_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00006_V1_ID"
+        name="00006_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg"
+        dead="_dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00007_V1_ID"
+        name="00007_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00008_V1_ID"
+        name="00008_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35NQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00013_V1_ID"
+        name="00013_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00014_V1_ID"
+        name="00014_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg"
+        dead="_dd35MwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00015_V1_ID"
+        name="00015_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"
+        dead="_dd35MgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00016_V1_ID"
+        name="00016_V1"
+        splVersion="1"
+        alive="_dd35NAG1EeirA6eQ5wNcNg _dd35MgG1EeirA6eQ5wNcNg _dd35NgG1EeirA6eQ5wNcNg _dd35MAG1EeirA6eQ5wNcNg _dd35MQG1EeirA6eQ5wNcNg _dd35NQG1EeirA6eQ5wNcNg _dd35MwG1EeirA6eQ5wNcNg"/>
+  </de.imotep.variability_1:MFeatureConfigurationManager>
+  <de.imotep.variability:MFeatureModel
+      id="FM_MinePump_V2_ID"
+      name="FM_MinePump_V2"
+      features="_deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg _deBDJAG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg">
+    <root id="_deBDIAG1EeirA6eQ5wNcNg"
+        name="MinePump"
+        featureModel="FM_MinePump_V2_ID"
+        isAbstract="true">
+      <featureGroups
+          xsi:type="de.imotep.variability:MAndFeatureGroup">
+        <features
+            id="_deBDIQG1EeirA6eQ5wNcNg"
+            name="WaterRegulation"
+            featureModel="FM_MinePump_V2_ID"
+            isAbstract="true">
+          <featureGroups
+              xsi:type="de.imotep.variability:MAndFeatureGroup">
+            <features
+                id="_deBDIgG1EeirA6eQ5wNcNg"
+                name="Low"
+                featureModel="FM_MinePump_V2_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_deBDIwG1EeirA6eQ5wNcNg"
+                name="Normal"
+                featureModel="FM_MinePump_V2_ID"
+                variabilityType="OPTIONAL"/>
+            <features
+                id="_deBDJAG1EeirA6eQ5wNcNg"
+                name="High"
+                featureModel="FM_MinePump_V2_ID"/>
+          </featureGroups>
+        </features>
+        <features
+            id="_deBDJQG1EeirA6eQ5wNcNg"
+            name="MethaneDetection"
+            featureModel="FM_MinePump_V2_ID"
+            variabilityType="OPTIONAL"/>
+        <features
+            id="_deBDJgG1EeirA6eQ5wNcNg"
+            name="Command"
+            featureModel="FM_MinePump_V2_ID"
+            variabilityType="OPTIONAL"/>
+        <features
+            id="_deBDJwG1EeirA6eQ5wNcNg"
+            name="AirCheck"
+            featureModel="FM_MinePump_V2_ID"
+            variabilityType="OPTIONAL"/>
+      </featureGroups>
+    </root>
+  </de.imotep.variability:MFeatureModel>
+  <de.imotep.variability_1:MFeatureConfigurationManager
+      id="Configuration_Manager_MinePump_V2_ID"
+      name="Configuration_Manager_MinePump_V2"
+      splVersion="2"
+      featureModel="FM_MinePump_V2_ID">
+    <featureConfigurations
+        id="00001_V2_ID"
+        name="00001_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00002_V2_ID"
+        name="00002_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00003_V2_ID"
+        name="00003_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00004_V2_ID"
+        name="00004_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00009_V2_ID"
+        name="00009_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00010_V2_ID"
+        name="00010_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00011_V2_ID"
+        name="00011_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00012_V2_ID"
+        name="00012_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00005_V2_ID"
+        name="00005_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00006_V2_ID"
+        name="00006_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg"
+        dead="_deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00007_V2_ID"
+        name="00007_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00008_V2_ID"
+        name="00008_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00013_V2_ID"
+        name="00013_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00014_V2_ID"
+        name="00014_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00015_V2_ID"
+        name="00015_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00016_V2_ID"
+        name="00016_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00017_V2_ID"
+        name="00017_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00018_V2_ID"
+        name="00018_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00019_V2_ID"
+        name="00019_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00020_V2_ID"
+        name="00020_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00021_V2_ID"
+        name="00021_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00022_V2_ID"
+        name="00022_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00023_V2_ID"
+        name="00023_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00024_V2_ID"
+        name="00024_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00025_V2_ID"
+        name="00025_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00026_V2_ID"
+        name="00026_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg"
+        dead="_deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00027_V2_ID"
+        name="00027_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00028_V2_ID"
+        name="00028_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDJQG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00029_V2_ID"
+        name="00029_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00030_V2_ID"
+        name="00030_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg"
+        dead="_deBDIwG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00031_V2_ID"
+        name="00031_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"
+        dead="_deBDIgG1EeirA6eQ5wNcNg"/>
+    <featureConfigurations
+        id="00032_V2_ID"
+        name="00032_V2"
+        splVersion="2"
+        alive="_deBDJAG1EeirA6eQ5wNcNg _deBDIgG1EeirA6eQ5wNcNg _deBDJgG1EeirA6eQ5wNcNg _deBDIAG1EeirA6eQ5wNcNg _deBDIQG1EeirA6eQ5wNcNg _deBDJwG1EeirA6eQ5wNcNg _deBDJQG1EeirA6eQ5wNcNg _deBDIwG1EeirA6eQ5wNcNg"/>
+  </de.imotep.variability_1:MFeatureConfigurationManager>
+</xmi:XMI>
