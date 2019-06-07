@@ -5,7 +5,8 @@ The prototype is part of the tool support of the research project [IMoTEP](http:
 The IMoTEP project focuses on efficient and effective model-based testing of evolving (dynamic) software product lines.
 
 ## Download
-* [Eclipse Modeling Tools](https://www.eclipse.org/downloads/packages/release/2019-03/r/eclipse-modeling-tools) for accessing the data obtained by the application of the prototype to the input data.
+* [Eclipse Modeling Tools Photon](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools) for accessing the data obtained by the application of the prototype to the input data.
+* [Meta-model](Metamodel_plugins) Eclipse plugins representing the data structure of our prototype. The plugins are required to access the input and result XMI files of the subject SPL systems (Wiper, Vending Machine & Mine Pump) in an installed [Eclipse](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools) instance.
 <!--* [Prototypical implementation](prototype.jar) of our framework facilitating SPL regression testing.-->
 <!--* [Input](Input) files of the vending machine and wiper SPL comprising 1. the XMI file with the feature model versions and respective feature configurations ([VendingMachineNEARIN.xmi](Input/VendingMachineNEARIN.xmi) & [WiperNEARIN.xmi](Input/WiperNEARIN.xmi)) and 2. the XMI file with the higher-order delta model ([HODModel_vm.xmi](Input/HODModel_vm.xmi) & [HODModel_wiper.xmi](Input/HODModel_wiper.xmi))-->
 <!--* [Result](Result) files of the vending machine as well as wiper SPL comprising the XMI file (*.regression) with the respective test artifacts.-->
