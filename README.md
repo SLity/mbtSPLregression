@@ -17,8 +17,19 @@ To access the data used as input and obtained by applying our prototype, the dow
 ```
 
 <!--* [Prototypical implementation](prototype.jar) of our framework facilitating SPL regression testing.-->
-## Prototype Execution
+## Evaluation and Prototype Execution
+### Download
+* [ComputeKeyParameters.jar](Jar/ComputeKeyParameters.jar): Executable Jar to compute all key parameters of the three subject SPLs, e.g., number of versions, number of deltas, average size of state machine test models etc.
+
+### Computing Key Parameters
+For executing the jar, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), and 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*). As the ouput is printed on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. The jar is exexuted via the command
+```
+java -jar ComputeKeyParameters.jar projectName pathToFMandConfig pathToHOD > eval.log 2>&1
+```
+
+<!--### Prototype Execution
 For executing the prototype of our framework, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*), and 4. the path to the output folder (*pathToOutput*). As the prototype prints information on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. In addition, the execution of the included test-case generator requires a specific amount of heap memory, where we suggest 10GB if possible. To this end, the prototype is executed via the command
 ```
 java -Xmx10000M -jar prototype.jar projectName pathToFMandConfig pathToHOD pathToOutput > eval.log 2>&1
 ```
+-->
