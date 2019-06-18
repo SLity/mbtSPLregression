@@ -20,6 +20,7 @@ To access the data used as input and obtained by applying our prototype, the dow
 ## Evaluation and Prototype Execution
 ### Download
 * [ComputeKeyParameters.jar](Jar/ComputeKeyParameters.jar): Executable Jar to compute all key parameters of the three subject SPLs, e.g., number of versions, number of deltas, average size of state machine test models etc.
+* [SlicingEvaluation.jar](Jar/SlicingEvaluation.jar): Executable Jar to perform the slicing evaluation.
 
 ### Computing Key Parameters
 For executing the jar, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), and 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*). As the ouput is printed on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. The jar is exexuted via the command
