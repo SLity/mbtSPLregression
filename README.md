@@ -21,6 +21,7 @@ To access the data used as input and obtained by applying our prototype, the dow
 ### Download
 * [ComputeKeyParameters.jar](Jar/ComputeKeyParameters.jar): Executable Jar to compute all key parameters of the three subject SPLs, e.g., number of versions, number of deltas, average size of state machine test models etc.
 * [SlicingEvaluation.jar](Jar/SlicingEvaluation.jar): Executable Jar to perform the slicing evaluation.
+* [HodReasoningEvaluation.jar](Jar/HodReasoningEvaluation.jar): Executable Jar to perform the evaluation of the reasoning about higher-order delta applications.
 
 ### Computing Key Parameters
 For executing the jar, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), and 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*). As the ouput is printed on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. The jar is exexuted via the command
@@ -32,6 +33,12 @@ java -jar ComputeKeyParameters.jar projectName pathToFMandConfig pathToHOD > eva
 For executing the jar, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*), 4. the number of the SPL version for which the evaluation is to be executed (*versionNum*), 5. the amount of repetitions for the slicing evaluation (*repetitions*), and 6. the output directory for the generated CSV files comprising the time values required for the application of slicing (*outputPath*). As some additional ouput is printed on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. The jar is exexuted via the command
 ```
 java -jar SlicingEvaluation.jar projectName pathToFMandConfig pathToHOD versionNum repetitions outputPath> eval.log 2>&1
+```
+
+### Evaluation of Reasoning about Higher-Order Delta Application
+For executing the jar, we require as parameters 1. the project name (*projectName*), 2. the path to the XMI file comprising the feature model and feature configuration versions (*pathToFMandConfig*), 3. the path to the XMI file containing the higher-order delta model (*pathToHOD*), 4. the amount of repetitions for the evaluation of the higher-order delta application reasoning (*repetitions*), and 5. the output directory for the generated CSV files comprising the time values required for the application of higher-order delta application reasoning (*outputPath*). As some additional ouput is printed on the command line, we suggest to pipe the command line output to a separate log file facilitating an easier review of the execution. The jar is exexuted via the command
+```
+java -jar HodReasoningEvaluation.jar projectName pathToFMandConfig pathToHOD repetitions outputPath> eval.log 2>&1
 ```
 
 <!--### Prototype Execution
